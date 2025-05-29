@@ -1,0 +1,49 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffe6f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ff99cc;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1, h2 {
+  color: #cc0066;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.projeto {
+  background-color: #fff0f5;
+  border: 1px solid #ffb6c1;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.projeto a {
+  color: #cc0066;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #ffccdd;
+  color: #660033;
+  text-align: center;
+  padding: 1rem;
+}
